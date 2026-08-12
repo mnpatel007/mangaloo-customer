@@ -1,9 +1,9 @@
 // Configuration file for the customer portal
 const config = {
   // API Configuration
-  API_BASE_URL: process.env.REACT_APP_API_URL || 'https://mangaloo-backend-1.onrender.com/api',
-  BACKEND_URL: process.env.REACT_APP_BACKEND_URL || 'https://mangaloo-backend-1.onrender.com',
-  SOCKET_URL: process.env.REACT_APP_SOCKET_URL || 'https://mangaloo-backend-1.onrender.com',
+  API_BASE_URL: process.env.REACT_APP_API_URL || 'https://mangaloo-backend.onrender.com/api',
+  BACKEND_URL: process.env.REACT_APP_BACKEND_URL || 'https://mangaloo-backend.onrender.com',
+  SOCKET_URL: process.env.REACT_APP_SOCKET_URL || 'https://mangaloo-backend.onrender.com',
 
   // App Configuration
   APP_NAME: process.env.REACT_APP_APP_NAME || 'Mangaloo Customer',
