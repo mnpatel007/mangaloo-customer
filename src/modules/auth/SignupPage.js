@@ -156,10 +156,10 @@ const SignupPage = () => {
           <div className="brand-content">
             <div className="logo-container">
               <div className="logo-icon">
-                <span className="logo-text">DW</span>
+                <span className="logo-text">MG</span>
               </div>
             </div>
-            <h1 className="brand-title">Join DelhiveryWay</h1>
+            <h1 className="brand-title">Join Mangaloo</h1>
             <p className="brand-subtitle">Start your personal shopping journey today</p>
             <div className="brand-features">
               <div className="feature-item">

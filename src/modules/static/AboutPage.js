@@ -8,14 +8,14 @@ const AboutPage = () => (
       <span className="info-eyebrow">About us</span>
       <h1>Your neighbourhood, delivered.</h1>
       <p>
-        DelhiveryWay connects you with the food, grocery and everyday-essential shops around you —
-        and brings your order right to your door.
+        Mangaloo connects you with the food, grocery and everyday-essential shops around you — and
+        brings your order right to your door.
       </p>
     </div>
 
     <div className="info-body">
       <p>
-        We started DelhiveryWay with a simple belief: the best shops are often the ones already near
+        We started Mangaloo with a simple belief: the best shops are often the ones already near
         you. Instead of pulling everything into one giant warehouse, we help the local shops you
         already trust reach you faster — with live order tracking and a personal shopper who picks
         your items with care.

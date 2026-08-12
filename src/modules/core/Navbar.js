@@ -73,7 +73,7 @@ const Navbar = () => {
               }
             />
           </span>
-          Delhivery<b>Way</b>
+          Mangaloo
         </Link>
 
         <button

@@ -31,7 +31,7 @@ const TermsPage = () => {
       <div className="info-hero">
         <span className="info-eyebrow">Legal</span>
         <h1>Terms &amp; privacy</h1>
-        <p>The terms and privacy policy that apply when you use DelhiveryWay.</p>
+        <p>The terms and privacy policy that apply when you use Mangaloo.</p>
       </div>
 
       <div className="info-body">

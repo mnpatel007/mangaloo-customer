@@ -8,13 +8,13 @@ const PartnerPage = () => (
       <span className="info-eyebrow">Partner with us</span>
       <h1>Bring your shop to more customers.</h1>
       <p>
-        List your shop on DelhiveryWay and reach nearby customers who are already looking for what
-        you sell — food, groceries and daily essentials.
+        List your shop on Mangaloo and reach nearby customers who are already looking for what you
+        sell — food, groceries and daily essentials.
       </p>
     </div>
 
     <div className="info-body">
-      <h2>Why partner with DelhiveryWay</h2>
+      <h2>Why partner with Mangaloo</h2>
       <div className="info-cards">
         <div className="info-card">
           <h3>More orders</h3>

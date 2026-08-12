@@ -1,6 +1,6 @@
-# DelhiveryWay Customer Portal
+# Mangaloo Customer Portal
 
-A modern, responsive customer portal for the DelhiveryWay delivery platform built with React.
+A modern, responsive customer portal for the Mangaloo delivery platform built with React.
 
 ## Features
 
@@ -46,14 +46,14 @@ A modern, responsive customer portal for the DelhiveryWay delivery platform buil
 ## Project Structure
 
 ```
-delhiveryway-customer/
+mangaloo-customer/
 ├── .env.development            # Committed, non-secret dev config (see backend README)
 ├── env.example                 # Template for a real .env (production)
 ├── package.json
 ├── public/
 │   ├── index.html
 │   ├── manifest.json
-│   ├── favicon.ico / logo192.png / logo512.png / delhiveryway-logo.jpg
+│   ├── favicon.ico / logo192.png / logo512.png / mangaloo-logo.jpg
 │   ├── notification.mp3        # Sound played on live order notifications
 │   └── robots.txt
 ├── design/                     # Design reference assets
@@ -120,8 +120,8 @@ delhiveryway-customer/
 ## Getting Started
 
 For the complete local development setup — installing WSL, Docker, Node, cloning
-all five DelhiveryWay repos, seeding the database, and running everything
+all five Mangaloo repos, seeding the database, and running everything
 together — see the
-[`backend` repo's README](https://github.com/mnpatel007/delhiveryway-backend#readme).
+[`backend` repo's README](https://github.com/mnpatel007/mangaloo-backend#readme).
 That's the single source of truth for setup; once it's done, come back here and
 run `npm start` in this repo (`http://localhost:3000`).

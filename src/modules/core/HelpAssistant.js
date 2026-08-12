@@ -101,7 +101,7 @@ const HelpAssistant = ({ open, onClose }) => {
 
   const greeting = {
     from: 'bot',
-    text: `Hi ${user?.name ? user.name.split(' ')[0] : 'there'} 👋 I'm your DelhiveryWay helper. How can I help?`,
+    text: `Hi ${user?.name ? user.name.split(' ')[0] : 'there'} 👋 I'm your Mangaloo helper. How can I help?`,
   };
 
   // mode: 'menu' | 'orderSelect' | 'issueTypes' | 'form'

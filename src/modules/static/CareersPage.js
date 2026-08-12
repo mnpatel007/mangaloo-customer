@@ -26,7 +26,7 @@ const CareersPage = () => (
         </div>
         <div className="info-card">
           <h3>Growth &amp; support</h3>
-          <p>Helping customers and local shops get the most out of DelhiveryWay.</p>
+          <p>Helping customers and local shops get the most out of Mangaloo.</p>
         </div>
       </div>
 
