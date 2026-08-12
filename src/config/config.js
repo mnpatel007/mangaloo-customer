@@ -6,9 +6,9 @@ const config = {
   SOCKET_URL: process.env.REACT_APP_SOCKET_URL || 'https://mangaloo-backend-1.onrender.com',
 
   // Stripe Configuration
-  STRIPE_PUBLISHABLE_KEY:
-    process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY ||
-    'pk_test_51RdZkxRvhEVshUODDQprocdR1VZc3ANHK3sXO8CBX2R15UGdHybkDJ2LO0qqoHYTfghWvaghMbOfqP3lBWLgrMzz009Sc0sv3a',
+  // Set REACT_APP_STRIPE_PUBLISHABLE_KEY in the deploy environment.
+  // No hardcoded fallback: a literal key here trips GitHub secret scanning.
+  STRIPE_PUBLISHABLE_KEY: process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY || '',
 
   // App Configuration
   APP_NAME: process.env.REACT_APP_APP_NAME || 'Mangaloo Customer',
