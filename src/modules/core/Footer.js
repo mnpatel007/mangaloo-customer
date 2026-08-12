@@ -79,7 +79,6 @@ const Footer = () => (
         <span>VISA</span>
         <span>UPI</span>
         <span>RuPay</span>
-        <span>Stripe</span>
       </div>
     </div>
   </footer>

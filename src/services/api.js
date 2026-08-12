@@ -164,12 +164,6 @@ export const ordersAPI = {
   getStats: () => api.get('/orders/customer/stats'),
 };
 
-// Payment API with Stripe integration
-export const paymentAPI = {
-  createCheckoutSession: (orderData) => api.post('/payment/create-checkout-session', orderData),
-  getSession: (sessionId) => api.get(`/payment/session/${sessionId}`),
-};
-
 // Contact API
 export const contactAPI = {
   send: (data) => api.post('/contact', data),

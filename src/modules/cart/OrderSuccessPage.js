@@ -21,16 +21,7 @@ const OrderSuccessPage = () => {
         localStorage.removeItem('checkoutAddress');
         localStorage.removeItem('finalCheckoutOrder');
 
-        // Check if we have a session_id from Stripe
-        const urlParams = new URLSearchParams(location.search);
-        const sessionId = urlParams.get('session_id');
-
-        if (sessionId) {
-          // Fetch session details from backend
-          const response = await api.get(`/payment/session/${sessionId}`);
-          setOrderDetails(response.data);
-        } else if (location.state) {
-          // Fallback to location state
+        if (location.state) {
           setOrderDetails(location.state);
         }
       } catch (error) {

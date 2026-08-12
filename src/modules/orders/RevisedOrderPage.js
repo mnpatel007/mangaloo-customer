@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useSocket } from '../../context/SocketContext';
 import { useAuth } from '../../context/AuthContext';
-import { apiCall, ordersAPI, paymentAPI, api } from '../../services/api';
+import { apiCall, ordersAPI, api } from '../../services/api';
 import '../cart/CheckoutPage.css';
 
 // Format price with Indian Rupee symbol and proper formatting

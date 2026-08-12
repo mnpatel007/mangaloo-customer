@@ -3,7 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useCart } from '../../context/CartContext';
 import { useSocket } from '../../context/SocketContext';
 import { useNavigate } from 'react-router-dom';
-import { apiCall, paymentAPI, ordersAPI, api } from '../../services/api';
+import { apiCall, ordersAPI, api } from '../../services/api';
 import { geocodeAddress } from '../../utils/geocoding';
 import { getCurrentLocation } from '../../utils/deliveryCalculator';
 import './Finalcheckoutpage.css';

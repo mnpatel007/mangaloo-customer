@@ -5,11 +5,6 @@ const config = {
   BACKEND_URL: process.env.REACT_APP_BACKEND_URL || 'https://mangaloo-backend-1.onrender.com',
   SOCKET_URL: process.env.REACT_APP_SOCKET_URL || 'https://mangaloo-backend-1.onrender.com',
 
-  // Stripe Configuration
-  // Set REACT_APP_STRIPE_PUBLISHABLE_KEY in the deploy environment.
-  // No hardcoded fallback: a literal key here trips GitHub secret scanning.
-  STRIPE_PUBLISHABLE_KEY: process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY || '',
-
   // App Configuration
   APP_NAME: process.env.REACT_APP_APP_NAME || 'Mangaloo Customer',
   APP_VERSION: process.env.REACT_APP_APP_VERSION || '1.0.0',
@@ -17,7 +12,6 @@ const config = {
 
   // Feature Flags
   ENABLE_GOOGLE_OAUTH: process.env.REACT_APP_ENABLE_GOOGLE_OAUTH === 'true',
-  ENABLE_STRIPE_PAYMENTS: process.env.REACT_APP_ENABLE_STRIPE_PAYMENTS !== 'false',
   ENABLE_SOCKET_NOTIFICATIONS: process.env.REACT_APP_ENABLE_SOCKET_NOTIFICATIONS !== 'false',
 
   // Development Settings

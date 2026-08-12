@@ -15,7 +15,7 @@ A modern, responsive customer portal for the Mangaloo delivery platform built wi
 
 - **Persistent Cart**: Cart data saved locally for seamless shopping
 - **Order Summary**: Detailed breakdown of costs including taxes and delivery fees
-- **Secure Checkout**: Integrated Stripe payment processing
+- **Secure Checkout**: Cash on delivery at order confirmation
 - **Address Management**: Easy delivery address input and validation
 
 ### 📦 Order Management
@@ -39,7 +39,7 @@ A modern, responsive customer portal for the Mangaloo delivery platform built wi
 - **State Management**: React Context API
 - **HTTP Client**: Axios with interceptors and retry logic
 - **Real-time**: Socket.io client for live updates
-- **Payments**: Stripe integration for secure transactions
+- **Payments**: Cash on delivery
 - **Styling**: CSS3 with modern design patterns
 - **Build Tool**: Create React App 5.0.1
 
@@ -114,7 +114,6 @@ mangaloo-customer/
 
 ### Payment Endpoints
 
-- `POST /payment/create-checkout-session` - Create Stripe checkout session
 - `POST /payment/confirm` - Confirm payment
 
 ## Getting Started
