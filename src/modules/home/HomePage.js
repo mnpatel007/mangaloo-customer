@@ -93,7 +93,7 @@ const HomePage = () => {
       setError('');
 
       const API_URL =
-        process.env.REACT_APP_API_URL || 'https://delhiveryway-backend-1.onrender.com/api';
+        process.env.REACT_APP_API_URL || 'https://mangaloo-backend-1.onrender.com/api';
 
       const params = new URLSearchParams();
       if (selectedCategory !== 'all') params.append('category', selectedCategory);

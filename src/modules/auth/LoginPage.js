@@ -143,10 +143,10 @@ const LoginForm = () => {
           <div className="brand-content">
             <div className="logo-container">
               <div className="logo-icon">
-                <span className="logo-text">DW</span>
+                <span className="logo-text">MG</span>
               </div>
             </div>
-            <h1 className="brand-title">DelhiveryWay</h1>
+            <h1 className="brand-title">Mangaloo</h1>
             <p className="brand-subtitle">Your Personal Shopping Companion</p>
             <div className="brand-features">
               <div className="feature-item">

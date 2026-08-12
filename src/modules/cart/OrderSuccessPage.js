@@ -241,7 +241,7 @@ const OrderSuccessPage = () => {
         {/* Support Info */}
         <div className="support-info">
           <p>
-            Need help? Contact us at <strong>support@delhiveryway.com</strong> or call{' '}
+            Need help? Contact us at <strong>support@mangaloo.com</strong> or call{' '}
             <strong>+91-XXXX-XXXX</strong>
           </p>
         </div>

@@ -600,7 +600,7 @@ export const SocketProvider = ({ children }) => {
         if (isUrgent) {
           setTimeout(() => {
             alert(
-              `🚨 URGENT NOTICE 🚨\n\n${data.title}\n\n${data.message}\n\nThis is an important announcement from DelhiveryWay!`
+              `🚨 URGENT NOTICE 🚨\n\n${data.title}\n\n${data.message}\n\nThis is an important announcement from Mangaloo!`
             );
           }, 1000);
         }

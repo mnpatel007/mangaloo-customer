@@ -23,7 +23,7 @@ const Footer = () => (
               }
             />
           </span>
-          DelhiveryWay
+          Mangaloo
         </div>
         <p className="ft-about">
           Your neighbourhood, delivered. Food, groceries and essentials from the shops you already
@@ -31,7 +31,7 @@ const Footer = () => (
         </p>
         <div className="ft-socials">
           <a
-            href="https://instagram.com/delhiveryway"
+            href="https://instagram.com/mangaloo"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
@@ -47,7 +47,7 @@ const Footer = () => (
             />
           </a>
           <a
-            href="https://facebook.com/delhiveryway"
+            href="https://facebook.com/mangaloo"
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook"
@@ -74,7 +74,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="ft-bar">
-      <span>© {new Date().getFullYear()} DelhiveryWay. Made with care in Mumbai.</span>
+      <span>© {new Date().getFullYear()} Mangaloo. Made with care in Mumbai.</span>
       <div className="ft-pay">
         <span>VISA</span>
         <span>UPI</span>
